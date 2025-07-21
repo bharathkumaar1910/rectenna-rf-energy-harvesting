@@ -103,7 +103,7 @@ Documentation & Publication
 | Tools Used                           | Vector Network Analyzer, Multimeter       |
 | Application Target                   | IoT nodes, sensors, embedded systems      |
 
-## testing photos:
+## Testing photos:
 ![rectenna test result 1](https://github.com/user-attachments/assets/af3e4905-ef9e-43fb-9b43-e4606ac2219e)
 
 ![rectenna test result 2](https://github.com/user-attachments/assets/880c6c98-382e-46f5-a711-7785c75859e5)
