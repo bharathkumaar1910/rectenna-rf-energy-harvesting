@@ -5,13 +5,12 @@ A dual-band rectenna system for harvesting RF energy at 3.5 GHz and 5 GHz freque
 
 This project presents a **dual-band rectenna system** capable of harvesting ambient electromagnetic energy at **3.5 GHz and 5 GHz**, suitable for powering small electronic gadgets and IoT devices. The system was developed to explore efficient wireless energy harvesting using reconfigurable antennas and optimized rectifying circuits.
 
----
+
 
 ##  Need for the Project
 
 With the rapid growth of **IoT and low-power embedded systems**, there is a need for **sustainable, wireless energy solutions**. Conventional batteries are limited by size and lifespan. This project addresses the problem by designing a system that **converts ambient RF signals (Wi-Fi & 5G) into usable DC power**, minimizing the need for physical charging.
 
----
 
 ##  Features & Workflow
 
@@ -44,56 +43,48 @@ Documentation & Publication
 	•	Why: Identified the opportunity to harness ambient RF signals (especially from Wi-Fi and 5G) to generate DC power.
 	•	How: Reviewed IEEE papers, journals, and recent advancements in rectenna systems to define objectives.
 
-⸻
 
 2. Design of Transmitting Antennas
 	•	What: Designed two microstrip patch antennas to transmit RF signals at 3.5 GHz and 5 GHz.
 	•	Why: These are common frequency bands with strong signal presence in urban areas (Wi-Fi & 5G).
 	•	How: Used CST Microwave Studio to simulate and optimize antenna dimensions, S11 return loss, and radiation patterns.
 
-⸻
 
 3. Design of Frequency-Reconfigurable Receiving Antenna
 	•	What: Created a V-shaped antenna with PIN diodes that allows switching between 3.5 GHz and 5 GHz.
 	•	Why: A single compact antenna that supports multiple bands is more efficient and space-saving.
 	•	How: PIN diodes are biased using small DC voltage to reconfigure the antenna’s resonant frequency dynamically.
 
-⸻
 
 4. Rectifier Circuit Development
 	•	What: Built an RF-to-DC rectifier using Schottky diodes, matching network, and filter circuit.
 	•	Why: Converts the captured RF signals into usable DC output for powering small electronics.
 	•	How: Designed using KiCad/Eagle and verified for voltage regulation, ripple reduction, and efficiency.
 
-⸻
 
 5. System Integration
 	•	What: Connected the transmitting antennas, reconfigurable receiving antenna, rectifier, and output measurement tools.
 	•	Why: Full rectenna system must function in real-time to validate energy harvesting and power delivery.
 	•	How: Assembled on prototype boards, connected via coaxial cables, and housed in a test rig.
 
-⸻
 
 6. Simulation and Fabrication
 	•	What: Simulated all individual components for performance before building.
 	•	Why: Ensures accuracy, efficiency, and saves cost before physical fabrication.
 	•	How: Used simulation tools (CST, HFSS), then fabricated antennas and PCBs on Rogers substrate.
 
-⸻
 
 7. Testing and Measurement
 	•	What: Tested the system using a Vector Network Analyzer (VNA) and digital multimeter.
 	•	Why: To measure output voltage, return loss, bandwidth, and overall power conversion efficiency.
 	•	How: Connected VNA to transmitting antenna, monitored RF signal, observed DC output from rectifier.
 
-⸻
 
 8. Result Evaluation
 	•	What: Collected performance data — DC output between 2.5V–5V, efficiency up to 85%.
 	•	Why: Validates the system as a practical energy harvesting solution for small gadgets and sensors.
 	•	How: Compared simulation data with physical test results, plotted efficiency curves, and documented findings.
 
-⸻
 
 9. Documentation & Publication
 	•	What: Compiled all findings, results, and methodology into a research paper.
