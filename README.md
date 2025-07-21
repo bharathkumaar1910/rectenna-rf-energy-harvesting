@@ -119,8 +119,8 @@ Documentation & Publication
 
 ## Tech Stack & Tools
 
-HFSS (Ansys) –  EM simulation
-Hardware – Vector Network Analyzer, Multimeter, PIN Diodes, Rogers Substrate,Soldering Tools, Biasing kits, Coaxial connectors
+   HFSS (Ansys) –  EM simulation
+   Hardware – Vector Network Analyzer, Multimeter, PIN Diodes, Rogers Substrate,Soldering Tools, Biasing kits, Coaxial connectors
 
 
 ## Published Paper
